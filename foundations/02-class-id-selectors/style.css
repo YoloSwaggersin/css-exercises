@@ -1,0 +1,19 @@
+.swag {
+    background-color: rgb(190, 70, 90);
+}
+
+#one {
+    color: rgb(4, 4, 230);
+    font-size: 36px;
+}
+
+/*You don't need the .swag here, but specificity*/
+.beeg .swag{
+    font-size: 24px;
+}
+
+#two {
+    background-color: rgb(34, 122, 34);
+    font-size: 24px;
+    font-weight: bold;
+}
